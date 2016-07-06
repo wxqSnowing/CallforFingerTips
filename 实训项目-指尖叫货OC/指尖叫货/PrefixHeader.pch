@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  指尖叫货
+//
+//  Created by 吴雪琴 on 16/6/26.
+//  Copyright © 2016年 team. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AFNetworking/AFNetworking.h"
+#import "SDWebImage/UIImageView+WebCache.h"
+#import "UIImageView+AFNetworking.h"
+#import "Product.h"
+#import "NSString+Md5.h"
+#import "User.h"
+#import "ShoppingCartSingle.h"
+
+
+//屏幕的宽度与高度
+#define UISCREE_WIDTH [UIScreen mainScreen].bounds.size.width
+#define UISCREE_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//#define BaseUrl @"http://zj.rimiedu.com"
+#define BaseUrl @"http://jh.wzjkj.com"
+#define Get_ProductList @"/Goods/GetListByStatus"
+#define Get_SliderList @"/Slider/GetList"
+#define Remark_GetContent @"/Remark/GetContent"
+#define Phone_GetList @"/Phone/GetList"
+#define ProVince_GetList @"/Province/GetList"
+#define Customer_Login @"/Customer/Login"
+#define Get_ProductList @"/Goods/GetListByStatus"
+#define Get_ProductList @"/Goods/GetListByStatus"
+#define ByCategory_GetList @"/Category/GetList"
+#define Get_ProductList @"/Goods/GetListByStatus"
+#define Customer_ResetPassword @"/Customer/ResetPassword"
+#define Order_GetList @"/Order/GetList"
+#define Customer_GetAddress @"/Customer/GetAddress"
+#define Customer_AddAddress @"/Customer/AddAddress"
+#define Customer_UpdateAdress @"/Customer/UpdateAdress"
+#define Order_AddOrder @"/Order/AddOrder"
+#define TZ_GetList @"/TZ/GetList"
+
+#endif /* PrefixHeader_pch */
